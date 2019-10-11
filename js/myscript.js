@@ -41,9 +41,6 @@ function createHeader() {
     sortBtn = document.createElement("button");
     sortBtn.innerHTML = "sort by Likes";
     sortBtn.setAttribute("id", "srtBtn")
-    sortBtn.onclick = function() {
-        sortByLikes();
-    }
     navigation = document.createElement("nav");
     ulist = document.createElement("ul");
     list1 = document.createElement("li");
@@ -96,6 +93,10 @@ function createMovieListFirst() {
         movie_coverImg = document.createElement("img");
         movie_coverImg.setAttribute("src", m_cover_image);
 
+        sortBtn.onclick = function() {
+            sortByLikes_m();
+        }
+
         like_button_m = document.createElement("button");
         like_button_m.setAttribute("id", "likeBtn" + i)
         like_button_m.innerHTML = "&#x1f44d; 0";
@@ -128,6 +129,10 @@ function createMovieList() {
         movie_description.innerHTML = m_description;
         movie_coverImg = document.createElement("img");
         movie_coverImg.setAttribute("src", m_cover_image);
+
+        sortBtn.onclick = function() {
+            sortByLikes_m();
+        }
 
         like_button_m = document.createElement("button");
         like_button_m.setAttribute("id", "likeBtn" + i)
@@ -162,6 +167,10 @@ function createAnimeList() {
         anime_description.innerHTML = a_description;
         anime_coverImg = document.createElement("img");
         anime_coverImg.setAttribute("src", a_cover_image);
+
+        sortBtn.onclick = function() {
+            sortByLikes_a();
+        }
 
         like_button_a = document.createElement("button");
         like_button_a.setAttribute("id", "likeBtn" + i)
@@ -203,28 +212,32 @@ function addLike_m(x, y) {
     };
 }
 //this part works
-function addLike_a(x,y) {
-    onClick(x,y);
+function addLike_a(x, y) {
+    onClick(x, y);
 
-    function onClick(x,y) {
+    function onClick(x, y) {
         current = Number(y.substring(2, 10))
         current += 1;
         x.innerHTML = "&#x1f44d; " + current;
     };
 }
 //sorts in console - only number of likes atm.
-function sortByLikes() {
-    sortArr = [];
+function sortByLikes_m() {
     for (i = 0; i < movies.length; i++) {
-        x = document.getElementById("likeBtn" + i).innerHTML;
-        y = Number(x.substring(2, 10));
-        sortArr.push(y);
+        x = document.getElementById("likeBtn" + i)
+        y = x.innerHTML;
+        z = Number(y.substring(2, 10));
+        document.getElementById("m_div" + i).style.order = "-" + z
     }
-    sortArr.sort(function(a, b) {
-        return a - b
-    })
-    console.log(sortArr.reverse())
+}
 
+function sortByLikes_a() {
+    for (i = 0; i < animes.length; i++) {
+        x = document.getElementById("likeBtn" + i)
+        y = x.innerHTML;
+        z = Number(y.substring(2, 10));
+        document.getElementById("a_div" + i).style.order = "-" + z
+    }
 }
 //this part works
 createHeader();

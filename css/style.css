@@ -1,0 +1,109 @@
+/*already exists from start */
+* {
+	margin: 0 auto;
+	max-width: 850px;
+	font-family: 'Dosis', sans-serif;
+}
+body {
+	box-shadow: 0 0 13px 3px darkgoldenrod;
+	background-color: lightgoldenrodyellow;
+}
+header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding:  1vh 0;
+	font-size: 1.3em;
+}
+nav {
+	background-color: silver;
+}
+nav ul {
+	display: flex;
+	font-weight: bold;
+	padding: 0.5vh
+}
+nav li {
+	list-style: none;
+	border: black double;
+	border-radius: 10px;
+	padding: 1vh;
+	font-size: 1.15em;
+	background-image: conic-gradient(grey,silver,whitesmoke,lightgrey,grey);
+	transition: color 1s, border 1.2s;
+}
+nav li:hover {
+	cursor: pointer;
+	border: darkred solid 3px;
+	color: white;
+	border-radius: 10px;
+	padding: 1vh;
+	background-image: conic-gradient(maroon,firebrick,lightcoral,firebrick,darkred);
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+footer #bigger {
+	font-size: 2em;
+}
+
+/*movie list*/
+#list {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around
+}
+[id*="_div"]{
+	width: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	border: double black;
+	border-radius: 5px;
+	margin: 1vh 0;
+	background-color: palegoldenrod;
+}
+[id*="_div"]:hover {
+	background-color: lightsteelblue;
+	box-shadow: 3px 3px 5px black;
+}
+[id*="div"] img {
+	width: 30%;
+}
+[id*=text_]{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	width: 60%;
+}
+
+[id*=likeBtn] {
+	font-size: 2em;
+	border-radius: 10px;
+	padding: 5px;
+}
+[id*=likeBtn]:hover {
+	background-color: yellowgreen;
+	box-shadow: 2px 2px 5px grey;
+}
+#srtBtn {
+	list-style: none;
+	border: black double;
+	border-radius: 10px;
+	padding: 1vh;
+	font-size: 1.15em;
+	background-image: conic-gradient(grey,silver,whitesmoke,lightgrey,grey);
+	transition: color 1s, border 1.2s;
+}
+#srtBtn:hover{
+	cursor: pointer;
+	border: darkred solid 3px;
+	color: white;
+	border-radius: 10px;
+	padding: 1vh;
+	background-image: conic-gradient(maroon,firebrick,lightcoral,firebrick,darkred);
+}

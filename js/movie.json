@@ -1,1 +1,10 @@
-var movies = [{},{}]
+var movies = [{"movie_name":"Aladdin","descr":"A short description","cover":"./img/Aladdin.jpg"},
+	{"movie_name":"Alita: Battle Angel","descr":"A short description","cover":"./img/Alita.jpg"},
+	{"movie_name":"Avatar","descr":"A short description","cover":"./img/Avatar.jpg"},
+	{"movie_name":"Avengers: Endgame","descr":"A short description","cover":"./img/AvengersEndgame.jpg"},
+	{"movie_name":"Dumbo","descr":"A short description","cover":"./img/Dumbo.jpg"},
+	{"movie_name":"The Greatest Showman","descr":"A short description","cover":"./img/GreatestShowman.jpg"},
+	{"movie_name":"Maleficent","descr":"A short description","cover":"./img/Maleficent.jpg"},
+	{"movie_name":"Ready or Not","descr":"A short description","cover":"./img/ReadyOrNot.jpg"},
+	{"movie_name":"Ready Player One","descr":"A short description","cover":"./img/ReadyPlayerOne.jpg"},
+	{"movie_name":"Spiderman: Far From Home","descr":"A short description","cover":"./img/SpidermanFFH.jpg"}]

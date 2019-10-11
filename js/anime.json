@@ -1,0 +1,10 @@
+var animes = [{"anime_name":"Sword Art Online","descr":"A short description","cover":"./img/anime_1.jpg"},
+	{"anime_name":"No.6","descr":"A short description","cover":"./img/anime_2.jpg"},
+	{"anime_name":"Zankyou no Terror","descr":"A short description","cover":"./img/anime_3.jpg"},
+	{"anime_name":"Death Note","descr":"A short description","cover":"./img/anime_4.jpg"},
+	{"anime_name":"Clannad","descr":"A short description","cover":"./img/anime_5.jpg"},
+	{"anime_name":"Lost Song","descr":"A short description","cover":"./img/anime_6.jpg"},
+	{"anime_name":"ElfenLied","descr":"A short description","cover":"./img/anime_7.jpg"},
+	{"anime_name":"Another","descr":"A short description","cover":"./img/anime_8.jpg"},
+	{"anime_name":"Your Lie in April","descr":"A short description","cover":"./img/anime_9.jpg"},
+	{"anime_name":"Kakegurui","descr":"A short description","cover":"./img/anime_10.jpg"}]

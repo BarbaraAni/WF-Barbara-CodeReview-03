@@ -221,7 +221,7 @@ function addLike_a(x, y) {
         x.innerHTML = "&#x1f44d; " + current;
     };
 }
-//sorts in console - only number of likes atm.
+//this part works
 function sortByLikes_m() {
     for (i = 0; i < movies.length; i++) {
         x = document.getElementById("likeBtn" + i)
@@ -230,7 +230,7 @@ function sortByLikes_m() {
         document.getElementById("m_div" + i).style.order = "-" + z
     }
 }
-
+//this part works
 function sortByLikes_a() {
     for (i = 0; i < animes.length; i++) {
         x = document.getElementById("likeBtn" + i)

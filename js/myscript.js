@@ -212,7 +212,7 @@ function addLike_a(x,y) {
         x.innerHTML = "&#x1f44d; " + current;
     };
 }
-
+//sorts in console - only number of likes atm.
 function sortByLikes() {
     sortArr = [];
     for (i = 0; i < movies.length; i++) {

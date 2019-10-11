@@ -1,10 +1,13 @@
-var animes = [{"anime_name":"Sword Art Online","descr":"A short description","cover":"./img/anime_1.jpg"},
-	{"anime_name":"No.6","descr":"A short description","cover":"./img/anime_2.jpg"},
-	{"anime_name":"Zankyou no Terror","descr":"A short description","cover":"./img/anime_3.jpg"},
-	{"anime_name":"Death Note","descr":"A short description","cover":"./img/anime_4.jpg"},
-	{"anime_name":"Clannad","descr":"A short description","cover":"./img/anime_5.jpg"},
-	{"anime_name":"Lost Song","descr":"A short description","cover":"./img/anime_6.jpg"},
-	{"anime_name":"ElfenLied","descr":"A short description","cover":"./img/anime_7.jpg"},
-	{"anime_name":"Another","descr":"A short description","cover":"./img/anime_8.jpg"},
-	{"anime_name":"Your Lie in April","descr":"A short description","cover":"./img/anime_9.jpg"},
-	{"anime_name":"Kakegurui","descr":"A short description","cover":"./img/anime_10.jpg"}]
+var animes = [{"anime_name":"Sword Art Online","descr":"<b>Genres</b>:<br> Action, Romance,<br> Science Fiction","cover":"./img/anime_1.jpg"},
+	{"anime_name":"No.6","descr":"<b>Genres</b>:<br> Dystopie, Science-Fiction","cover":"./img/anime_2.jpg"},
+	{"anime_name":"Zankyou no Terror","descr":"<b>Genres</b>:<br> Dystopie, Psychologie-Fiction,<br> Thriller","cover":"./img/anime_3.jpg"},
+	{"anime_name":"Death Note","descr":"<b>Genres</b>:<br> Horrorfilm, Thriller,<br> Mystery, Krimi","cover":"./img/anime_4.jpg"},
+	{"anime_name":"Clannad","descr":"<b>Genres</b>:<br> ‎Drama‎, ‎Fantasy‎,<br> ‎Romance","cover":"./img/anime_5.jpg"},
+	{"anime_name":"Lost Song","descr":"<b>Genres</b>:<br> Fantasy, Music","cover":"./img/anime_6.jpg"},
+	{"anime_name":"Elfenlied","descr":"<b>Genres</b>:<br> Dark Fantasy, Horror,<br> Science-Fiction","cover":"./img/anime_7.jpg"},
+	{"anime_name":"Another","descr":"<b>Genres</b>:<br> Horror, Mystery,<br> Tragödie","cover":"./img/anime_8.jpg"},
+	{"anime_name":"Your Lie in April","descr":"<b>Genres</b>:<br> Love, Drama, Music","cover":"./img/anime_9.jpg"},
+	{"anime_name":"Kakegurui","descr":"<b>Genres</b>:<br> Glücksspiel, Thriller","cover":"./img/anime_10.jpg"},
+	{"anime_name":"7 deadly Sins","descr":"<b>Genres</b>:<br> Adventure, Fantasy","cover":"./img/anime_11.jpg"},
+	{"anime_name":"Amnesia","descr":"<b>Genres</b>:<br> Drama, Mystery,<br> Romance","cover":"./img/anime_12.jpg"}]
+	

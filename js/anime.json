@@ -1,6 +1,6 @@
 var animes = [{"anime_name":"Sword Art Online","descr":"<b>Genres</b>:<br> Action, Romance,<br> Science Fiction","cover":"./img/anime_1.jpg"},
 	{"anime_name":"No.6","descr":"<b>Genres</b>:<br> Dystopie, Science-Fiction","cover":"./img/anime_2.jpg"},
-	{"anime_name":"Zankyou no Terror","descr":"<b>Genres</b>:<br> Dystopie, Psychologie-Fiction,<br> Thriller","cover":"./img/anime_3.jpg"},
+	{"anime_name":"Zankyou no Terror","descr":"<b>Genres</b>:<br> Dystopie, Psychology-Fiction,<br> Thriller","cover":"./img/anime_3.jpg"},
 	{"anime_name":"Death Note","descr":"<b>Genres</b>:<br> Horrorfilm, Thriller,<br> Mystery, Krimi","cover":"./img/anime_4.jpg"},
 	{"anime_name":"Clannad","descr":"<b>Genres</b>:<br> ‎Drama‎, ‎Fantasy‎,<br> ‎Romance","cover":"./img/anime_5.jpg"},
 	{"anime_name":"Lost Song","descr":"<b>Genres</b>:<br> Fantasy, Music","cover":"./img/anime_6.jpg"},
